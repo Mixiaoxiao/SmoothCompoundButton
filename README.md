@@ -37,7 +37,7 @@ Features 特性
 * 支持“正确的”padding，系统的CheckBox和RadioButton对padding的处理很不合常理，见Sample
 * 支持ClickMarkOnly，是否仅按下“按钮标记”部分为toogle（即忽略点击文字部分）
 * 支持ReverseMarkPosition，是否反转“正常的按钮标记位置”
-* 支持RTL从左到右布局，不过懒得处理Switch的的按钮标记的左右了
+* 支持RTL从右到左布局，不过懒得处理Switch的的按钮标记的左右了
 * 支持Disabled状态而无需任何手动配置
 * 无！任！何Resources！对，你没有听错，只需导入[jar](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/smoothcompoundbuttonlibrary.jar)即可（原谅我这个强迫症患者）
 
