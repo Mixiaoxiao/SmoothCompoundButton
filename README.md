@@ -47,7 +47,7 @@ Usage 用法
 
 * 只需导入[jar](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/smoothcompoundbuttonlibrary.jar)
 * 使用SmoothSwitch、SmoothCheckBox、SmoothRadioButton、SmoothRadioGroup替换掉系统对应的类即可
-#####Java api和系统CompoundButton完全一致，额外增加的一个方法:
+* Java api和系统CompoundButton完全一致，额外增加的一个方法:
 
 ```java
 public void setChecked(boolean checked, boolean withAnimation, boolean notifyOnCheckedChangeListener) 
