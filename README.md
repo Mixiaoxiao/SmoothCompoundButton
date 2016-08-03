@@ -65,7 +65,7 @@ Attrs 属性
 |---|:---|:---|:---:|
 |android:adjustViewBounds|boolean|ClickMarkOnly，是否仅可点击按钮标记部分|默认false，即整体可点击|
 |android:cropToPadding|boolean|ReverseMarkPosition，是否反转“正常的按钮标记位置”|默认false，即正常位置|
-|android:tint|boolean|MarkColor，按钮标记的颜色|如果是单个颜色则取为state_checked时的颜色，如果是selector会分别取两种对应状态的颜色|
+|android:tint|color|MarkColor，按钮标记的颜色|如果是单个颜色则取为state_checked时的颜色，如果是selector会分别取两种对应状态的颜色|
 
 * 如果没有指定android:gravity，则设置为Gravity.CENTER_VERTICAL
 * 其实android:checked也是借来的，这个是CompoundButton的属性，而SmoothCompoundButton的基类是继承于Button
