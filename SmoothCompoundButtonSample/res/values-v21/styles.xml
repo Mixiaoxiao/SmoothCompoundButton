@@ -1,0 +1,15 @@
+<resources>
+
+    <!--
+        <item name="android:statusBarColor">#ff0288d1</item>
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/material_lightblue_500</item>
+        <item name="android:colorAccent">@color/material_teal_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:colorPrimaryDark">@color/material_lightblue_700</item>
+        
+        
+    </style>
+
+</resources>

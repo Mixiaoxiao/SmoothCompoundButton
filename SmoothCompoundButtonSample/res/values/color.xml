@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_lightblue_500">#ff03a9f4</color>
+    <color name="material_lightblue_700">#ff0288d1</color>
+    <color name="material_teal_500">#ff009688</color>
+    <color name="material_yellow_500">#ffffeb3b</color>
+    <color name="material_pink_500">#ffe91e63</color>
+</resources>

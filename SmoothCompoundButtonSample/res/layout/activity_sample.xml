@@ -1,0 +1,380 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mixiaoxiao.smoothcompoundbutton.sample.SampleActivity" >
+
+    <LinearLayout
+        android:id="@+id/main_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/cell_divider"
+        android:orientation="vertical"
+        android:showDividers="middle" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/ic_launcher"
+            android:visibility="gone" />
+
+        <TextView
+            style="@style/SettingCategory"
+            android:text="Switch [width=match_parent, paddingLeft/Right=16dp]" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:checked="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="SystemSwitch" />
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothSwitch
+            style="@style/SettingsCellSingleCompoundButton"
+            android:text="SmoothSwitch" />
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothSwitch
+            style="@style/SettingsCellSingleCompoundButton"
+            android:adjustViewBounds="true"
+            android:text="SmoothSwitch ClickMarkOnly" />
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothSwitch
+            style="@style/SettingsCellSingleCompoundButton"
+            android:cropToPadding="true"
+            android:text="SmoothSwitch ReverseMarkPosition" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothSwitch
+                android:id="@+id/sample_smoothswitch1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text=""
+                android:tint="@color/material_lightblue_500" />
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothSwitch
+                android:id="@+id/sample_smoothswitch2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text=""
+                android:tint="@color/sample_tint_color_selector" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SettingCategory"
+            android:text="CheckBox [width=match_parent, paddingLeft/Right=16dp]" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:checked="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="SystemCheckBox" />
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothCheckBox
+            style="@style/SettingsCellSingleCompoundButton"
+            android:text="SmoothCheckBox" />
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothCheckBox
+            style="@style/SettingsCellSingleCompoundButton"
+            android:adjustViewBounds="true"
+            android:text="SmoothCheckBox ClickMarkOnly" />
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothCheckBox
+            style="@style/SettingsCellSingleCompoundButton"
+            android:cropToPadding="true"
+            android:text="SmoothCheckBox ReverseMarkPosition" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="bottom" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AppCompat\nCheckOff"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EmptyText\nCustomColor"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EmptyText\nCustomColor"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AppCompat\nCheckOn"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal" >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:onClick="onClickAppCompatImageView"
+                android:scaleType="fitXY"
+                android:src="@drawable/abc_btn_check_to_on_mtrl_000"
+                android:tint="#ff6d6d6d" />
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothCheckBox
+                android:id="@+id/sample_smoothcheckbox1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:checked="false"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:text=""
+                android:tint="@color/material_lightblue_500" />
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothCheckBox
+                android:id="@+id/sample_smoothcheckbox2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:checked="true"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:text=""
+                android:tint="@color/sample_tint_color_selector" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:onClick="onClickAppCompatImageView"
+                android:scaleType="fitXY"
+                android:src="@drawable/abc_btn_check_to_on_mtrl_015"
+                android:tint="@color/material_pink_500" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SettingCategory"
+            android:text="RadioButton [width=match_parent, paddingLeft/Right=16dp]" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/radioButton1"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="SystemRadioButton1" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:checked="false"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="SystemRadioButton2" />
+        </RadioGroup>
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothRadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/smoothRadioButton1"
+            android:orientation="vertical" >
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothRadioButton
+                android:id="@+id/smoothRadioButton1"
+                style="@style/SettingsCellSingleCompoundButton"
+                android:text="SmoothRadioButton1 in RadioGroup" />
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothRadioButton
+                android:id="@+id/smoothRadioButton2"
+                style="@style/SettingsCellSingleCompoundButton"
+                android:checked="false"
+                android:text="SmoothRadioButton2 in RadioGroup" />
+        </com.mixiaoxiao.smoothcompoundbutton.SmoothRadioGroup>
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothRadioButton
+            style="@style/SettingsCellSingleCompoundButton"
+            android:adjustViewBounds="true"
+            android:checked="true"
+            android:text="SmoothRadioButton ClickMarkOnly" />
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothRadioButton
+            style="@style/SettingsCellSingleCompoundButton"
+            android:checked="true"
+            android:cropToPadding="true"
+            android:text="SmoothRadioButton ReverseMarkPosition" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="bottom" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AppCompat\nCheckOff"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EmptyText\nCustomColor"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EmptyText\nCustomColor"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AppCompat\nCheckOn"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal" >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:onClick="onClickAppCompatImageView"
+                android:scaleType="fitXY"
+                android:src="@drawable/abc_btn_radio_to_on_mtrl_000"
+                android:tint="#ff6d6d6d" />
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothRadioButton
+                android:id="@+id/sample_smoothradiobutton1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:checked="false"
+                android:text=""
+                android:tint="@color/material_lightblue_500" />
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothRadioButton
+                android:id="@+id/sample_smoothradiobutton2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:checked="true"
+                android:text=""
+                android:tint="@color/sample_tint_color_selector" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:onClick="onClickAppCompatImageView"
+                android:scaleType="fitXY"
+                android:src="@drawable/abc_btn_radio_to_on_mtrl_015"
+                android:tint="@color/material_pink_500" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SettingCategory"
+            android:text="Control Test" />
+
+        <CheckBox
+            android:id="@+id/ctrl_enabled"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:checked="true"
+            android:singleLine="true"
+            android:text="Enabled-ctrl(SystemCheckBox)" />
+
+        <CheckBox
+            android:id="@+id/ctrl_checked_noanimation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:checked="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Checked-ctrl no-anim(SystemCheckBox)" />
+
+        <CheckBox
+            android:id="@+id/ctrl_checked_withanimation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:checked="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Checked-ctrl with-anim(SystemCheckBox)" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Test in clickable viewgroup" />
+
+            <com.mixiaoxiao.smoothcompoundbutton.SmoothCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <com.mixiaoxiao.smoothcompoundbutton.SmoothCheckBox
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:onClick="saveSamplePicture"
+            android:text="Save this sample as picture" />
+    </LinearLayout>
+
+</ScrollView>
