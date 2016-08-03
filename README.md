@@ -3,7 +3,7 @@ SmoothCompoundButton
 
 Android CompoundButtons (Switch, CheckBox, RadioButton) in Material Design, works on Android 4.0+(SDK 14).
 
-`SmoothCompoundButton` 是全套的Material风格的Switch、CheckBox和RadioButton组件，支持Android 4.0+。基本实现了在不同Android版本上与Material风格一致的效果，优于AppCompat库，可能是目前最好的Material风格CompoundButton库之一。
+`SmoothCompoundButton` 是全套的Material风格的Switch、CheckBox和RadioButton组件，支持Android 4.0+。基本实现了在不同Android版本上与Material风格一致的效果，体验优于官方AppCompat，可能是目前最好的Material风格CompoundButton库之一。
 
 Screenshots Android 5.0+
 -----
@@ -39,13 +39,13 @@ Features 特性
 * 支持ReverseMarkPosition，是否反转“正常的按钮标记位置”
 * 支持RTL从左到右布局，不过懒得处理Switch的的按钮标记的左右了
 * 支持Disabled状态而无需任何手动配置
-* 本Library无！任！何Resources！对，你没有听错，只需导入[jar](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/smoothcompoundbuttonlibrary.jar)即可（原谅我这个强迫症患者）
+* 无！任！何Resources！对，你没有听错，只需导入[jar](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/smoothcompoundbuttonlibrary.jar)即可（原谅我这个强迫症患者）
 
 
 Usage 用法
 -----
 
-* 导入[jar](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/smoothcompoundbuttonlibrary.jar)
+* 只需导入[jar](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/smoothcompoundbuttonlibrary.jar)
 * 使用SmoothSwitch、SmoothCheckBox、SmoothRadioButton、SmoothRadioGroup替换掉系统对应的类即可
 #####Java api和系统CompoundButton完全一致，额外增加的一个方法:
 
