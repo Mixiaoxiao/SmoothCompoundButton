@@ -3,6 +3,7 @@ SmoothCompoundButton
 
 Android CompoundButtons (Switch, CheckBox, RadioButton) in Material Design, works on Android 4.0+(SDK 14).
 
+`SmoothCompoundButton` 是全套Material风格的Switch、CheckBox和RadioButton组件，纯Java代码(非贴图)像素级复刻了Material动画与阴影效果，支持Android 4.0+。基本实现了在不同Android版本上与Material风格一致的效果，体验优于官方AppCompat，可能是目前最好的Material风格CompoundButton组件之一。
 
 Screenshots 
 -----
