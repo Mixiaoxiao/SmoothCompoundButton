@@ -3,21 +3,17 @@ SmoothCompoundButton
 
 Android CompoundButtons (Switch, CheckBox, RadioButton) in Material Design, works on Android 4.0+(SDK 14).
 
-`SmoothCompoundButton` 是全套的Material风格的Switch、CheckBox和RadioButton组件，支持Android 4.0+。基本实现了在不同Android版本上与Material风格一致的效果，体验优于官方AppCompat，可能是目前最好的Material风格CompoundButton库之一。
 
-Screenshots Android 4.x
+Screenshots 
 -----
 
-![SmoothCompoundButton](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-switch_4x.gif)
-![SmoothCompoundButton](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-checkbox_4x.gif)
-![SmoothCompoundButton](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-radiobutton_4x.gif)
+![SmoothCompoundButton](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-allinone.gif) 
 
-Screenshots Android 5.0+
------
+* Android 4.x [Switch - Click to show GIF](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-switch_4x.gif),  [CheckBox - Click to show GIF](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-checkbox_4x.gif),  [RadioButton - Click to show GIF](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-radiobutton_4x.gif)
 
-![SmoothCompoundButton](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-switch_5+.gif)
-![SmoothCompoundButton](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-checkbox_5+.gif)
-![SmoothCompoundButton](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-radiobutton_5+.gif)
+* Android 5.0+ [Switch - Click to show GIF](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-switch_5+.gif),
+[CheckBox - Click to show GIF](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-checkbox_5+.gif),
+[RadioButton - Click to show GIF](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/Screenshots/GIF-radiobutton_5+.gif)
 
 Sample APK
 -----
